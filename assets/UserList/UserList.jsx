@@ -6,8 +6,8 @@ class UserList extends Component {
     return (
       <div>
         <ul className="list">
-          {this.props.listdate.map((item) => {
-            return <UserItem date={item.name} key={item.id} id={item.id} callback={this.props.callback}/>
+          {this.props.listdate.map((item,index) => {
+            return <UserItem date={item.name} key={index} id={item.id} callback={this.props.callback}/>
           })}
         </ul>
       </div>
