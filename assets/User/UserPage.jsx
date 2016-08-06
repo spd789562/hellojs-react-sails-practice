@@ -23,15 +23,7 @@ class UserPage extends Component {
     })
   }
   componentWillMount() {
-    $.ajax({
-      url:'user',
-      success: (date) => {
-        this.setState({ userList: date })
-      },
-      error: (e) => {
-        console.log(e);
-      }
-    })
+    this.handleChange();
   }
   render() {
     return (
