@@ -1,5 +1,8 @@
 .list{
-  width: 200px;
+  width: 100%;
   list-style:none;
   padding: 5px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #9efcda;
 }

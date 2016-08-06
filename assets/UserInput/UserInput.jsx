@@ -16,7 +16,7 @@ class UserInput extends Component {
   render() {
     return (
       <form onSubmit={this.handleAdd}>
-        <label htmlFor='user'>User</label>
+        <label htmlFor='user'>輸入使用者名稱</label>
         <input type="text" ref="username"/>
       </form>
     );
