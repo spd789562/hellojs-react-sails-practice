@@ -1,6 +1,10 @@
 {
   "name": "react-sails-practice",
   "private": true,
+  "engines": {
+    "node": ">=5.0 <6",
+    "npm": ">=3.3 <4"
+  },
   "version": "0.0.0",
   "description": "a Sails application",
   "keywords": [],
@@ -9,7 +13,7 @@
     "css-loader": "^0.23.1",
     "ejs": "2.3.4",
     "extract-text-webpack-plugin": "^1.0.1",
-    "file-loader": "^0.8.5",
+    "file-loader": "^0.9.0",
     "grunt": "0.4.5",
     "grunt-contrib-clean": "0.6.0",
     "grunt-contrib-coffee": "0.13.0",

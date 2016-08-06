@@ -1,0 +1,15 @@
+.delete_btn{
+  color: #999;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 50px;
+  line-height:50px;
+  text-align: center;
+  font-size: 30px;
+  float: right;
+  &:hover{
+    color: #00b3ee;
+    text-decoration: none;
+  }
+}

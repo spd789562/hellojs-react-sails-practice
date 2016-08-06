@@ -6,6 +6,23 @@
  */
 
 module.exports = {
-	
+  create: function(req, res){
+    var name = req.param('name');
+    console.log(req.allParams());
+    User.create({name})
+      .then(function(user){
+        res.redirect("/user");
+      });
+  },
+  destroy: function(req,res){
+    var id = req.param('id');
+
+    User.destroy({
+      id: id
+    })
+    .then(function(user) {
+        res.redirect("/user")
+    });
+  }
 };
 

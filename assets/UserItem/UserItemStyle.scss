@@ -1,0 +1,21 @@
+.listItem{
+  height: 50px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding-left: 10px;
+  margin-bottom: 5px;
+  box-shadow: 0px 0px 10px #fff inset;
+  background-image: linear-gradient(#fff,#eee);
+  &:hover{
+    border-color: #00b3ee;
+    box-shadow: 0px 0px 6px #fff inset,0px 0px 3px #00b3ee;
+  }
+  & span{
+    display: block;
+    float: left;
+    font-size: 30px;
+    line-height: 50px;
+    color: #555;
+  }
+}
